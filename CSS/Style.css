@@ -63,6 +63,8 @@ img {
     color: #111111;
     text-transform: uppercase;
     font-weight: 800;
+    margin-left:
+    
 }
 
 
@@ -98,6 +100,7 @@ img {
 
 .submenu {
     position: relative;
+    margin-right: 20px;
 }
 
 .submenu #carrito {
@@ -746,10 +749,10 @@ td {
 }
 
 
-
+/* Estilos para pantallas grandes (escritorio y tablet) */
 
 @media (min-width: 992px) and (max-width: 2560px) {
-    /* Estilos para pantallas grandes (escritorio y tablet) */
+    
     body {
         font-size: 18px; 
     }
@@ -759,9 +762,14 @@ td {
     }
 
     .menu {
-        padding: 50px; 
+        padding: 0px; 
+        margin-left: 20px;
     }
 
+
+    .submenu{
+        margin-right: 25px;
+    }
     
 
     .footer {
@@ -786,10 +794,13 @@ td {
     }
 
     .menu {
-        padding: 70px; 
+        padding: 0px; 
+        margin-left: 30px;
     }
 
-    
+    .submenu{
+        margin-right: 30px;
+    }
 
     .footer {
         padding: 50px; 
@@ -799,3 +810,4 @@ td {
         
     }
 }
+
