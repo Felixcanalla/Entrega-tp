@@ -520,6 +520,7 @@ td {
     padding:30px 0px;
     font-family: 'Oswald', sans-serif;
     text-align:center;
+    top: 0;
     }
     
     .footer .links{
@@ -552,6 +553,12 @@ td {
     .footer .links a i{
     font-size:2em;
     margin:0% 1%;
+    }
+
+    iframe{
+        
+        float: left;
+
     }
 
 
