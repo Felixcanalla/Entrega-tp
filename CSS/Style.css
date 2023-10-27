@@ -147,6 +147,134 @@ td {
 }
 
 
+
+    
+
+/* Estilos para la página "Sobre Nosotros" */
+.sobre-nosotros {
+    background-color: #fff;
+    padding: 50px;
+    color: #111111;
+    font-family: 'Oswald', sans-serif;
+}
+
+.sobre-nosotros h2 {
+    font-family: 'Oswald';
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.sobre-nosotros p {
+    font-family: 'Poppins';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sobre-nosotros h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Oswald';
+}
+
+.nosotros{
+    display: none;
+}
+
+.nosotros h1{
+    color:#111111;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
+}
+
+/* Estilos para el formulario de contacto */
+
+
+
+
+.contact-form {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn-2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #111111;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background-color: #333;
+}
+
+/* Estilos para la reseña e historia de la empresa */
+
+
+
+
+
+
+
+
+
+/**PRODUCTOS*/
+.gaming-header h1 {
+    color: #f5f5f5;
+    color: transparent;
+}
+
+.gaming-header{
+    background-image: url(/IMG/Gaming.jpg); 
+    background-size: cover; 
+    background-position: center;
+    flex-basis: 50%;
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0 200px;
+}
+
+.gaming-header img{
+    width:100%;
+    height:auto;
+
+}
+
+
 .header-img {
     flex-basis: 50%;
     text-align: center;
@@ -281,7 +409,7 @@ td {
 
 .product img {
 
-    width: 250px;
+    width: 350px;
     height: 370px;
     margin-bottom: 20px;
 }
