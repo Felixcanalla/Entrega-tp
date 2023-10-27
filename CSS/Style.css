@@ -746,116 +746,56 @@ td {
 }
 
 
-@media (max-width: 601px) {
-    /* Estilos para tablet y escritorio */
 
+
+@media (min-width: 992px) and (max-width: 2560px) {
+    /* Estilos para pantallas grandes (escritorio y tablet) */
     body {
-        font-size: 16px; /* Tamaño de fuente común para tablet y escritorio */
+        font-size: 18px; 
     }
 
     .header {
-        padding: 50px 0; /* Ajuste común del espaciado superior e inferior de la cabecera */
+        padding: 70px 0; 
     }
 
     .menu {
-        padding: 30px; /* Ajuste común del espaciado del menú */
+        padding: 50px; 
     }
 
-    .header-content {
-        padding: 50px 0; /* Ajuste común del espaciado del contenido de la cabecera */
-        flex-direction: column; /* Cambio en la dirección del contenido */
-    }
-
-    .header-img {
-        display: none; /* Ocultar la imagen de la cabecera en tablet y escritorio */
-    }
-
-    .header-txt h1 {
-        font-size: 70px; /* Tamaño de fuente común para el título */
-    }
-
-    .header-txt a {
-        font-size: 50px; /* Tamaño de fuente común para el subtitulo */
-    }
-
-    .ofert {
-        padding: 30px; /* Ajuste común del espaciado para la sección "ofert" */
-        flex-direction: column; /* Cambio en la dirección del contenido */
-    }
-
-    .ofert-1 {
-        margin-bottom: 30px; /* Margen común para los elementos "ofert-1" */
-    }
-
-    .products {
-        padding: 30px; /* Ajuste común del espaciado para la sección "products" */
-    }
-
-    .products h2 {
-        margin-bottom: 30px; /* Margen común para el título "products" */
-    }
-
-    .product-content {
-        grid-template-columns: repeat(1, 1fr); /* Cambio en la disposición de las columnas */
-        gap: 30px; /* Espacio entre elementos */
-    }
-
-    .product img {
-        height: 280px; /* Altura común para las imágenes de productos */
-        width: 200px; /* Ancho común para las imágenes de productos */
-    }
-
-    .icons {
-        padding: 30px; /* Ajuste común del espaciado para la sección "icons" */
-        flex-direction: column; /* Cambio en la dirección del contenido */
-    }
-
-    .icon {
-        margin-bottom: 30px; /* Margen común para los elementos "icon" */
-    }
-
-    .blog {
-        padding: 30px; /* Ajuste común del espaciado para la sección "blog" */
-        flex-direction: column; /* Cambio en la dirección del contenido */
-    }
-
-    .blog-1 {
-        margin-bottom: 30px; /* Margen común para los elementos "blog-1" */
-    }
+    
 
     .footer {
-        padding: 30px; /* Ajuste común del espaciado del footer */
+        padding: 30px; /
     }
 
     .footer-content {
-        flex-direction: column; /* Cambio en la dirección del contenido */
-        text-align: center; /* Alineación de texto centrada */
+        
     }
 }
 
-/* Estilos para tamaños de pantalla de televisores (más de 2560px, un valor aproximado) */
+/* Estilos para tamaños de pantalla de televisores (más de 2560px) */
 @media (min-width: 2561px) {
     /* Estilos para televisores */
 
     body {
-        font-size: 24px; /* Tamaño de fuente aún más grande */
+        font-size: 24px; 
     }
 
     .header {
-        padding: 150px 0; /* Ajuste del espaciado superior e inferior de la cabecera */
+        padding: 150px 0; 
     }
 
     .menu {
-        padding: 70px; /* Ajuste del espaciado del menú */
+        padding: 70px; 
     }
 
-    /* Continúa aquí con los estilos específicos para televisores */
+    
 
     .footer {
-        padding: 50px; /* Ajuste del espaciado del footer */
+        padding: 50px; 
     }
 
     .footer-content {
-        /* Puedes agregar estilos específicos para el footer en televisores si es necesario */
+        
     }
 }
