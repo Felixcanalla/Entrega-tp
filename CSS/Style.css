@@ -66,6 +66,8 @@ img {
 }
 
 
+
+
 .menu .navbar ul li {
     position: relative;
 
@@ -456,11 +458,17 @@ td {
     background-color: #f5f5f5;
 }
 
+.icon img{
+    padding-right: 25px;
+    height: 40px;
+    
+}
 .icon-txt   h3{
     font-size: 20px;
     color: #111111;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    bottom: 25px;
 
 }
 
@@ -502,46 +510,50 @@ td {
 }
 
 
-.footer {
-    padding: 50px 0;
-    background-color: #111111;
-}
+/***FOOTER**/
 
-.footer-content {
-    justify-content: space-between;
-    display: flex;
-}
-
-
-.link h3{
-
-    font-size: 18px;
-    color: #ffffff;
+.footer{
+    background:#111111;
+    padding:30px 0px;
     font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+    text-align:center;
+    }
+    
+    .footer .links{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .links a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .links a:hover{
+    color:#fff;
+    }
+    
+    .footer .links ul{
+    width:100%;
+    }
+    
+    .footer .links ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .links a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
 
-}
-
-
-.link a {
-    font-size: 16px;
-    color: #DCDCDC;
-    display: block;
-    margin-bottom: 10px;
-}
 
 
 /* Estilos para el formulario de registro */
-
-
-
-
-
-
-
-
-
 
 .registro-form {
     font-family: 'Poppins', sans-serif;
@@ -734,6 +746,116 @@ td {
 }
 
 
+@media (max-width: 601px) {
+    /* Estilos para tablet y escritorio */
 
+    body {
+        font-size: 16px; /* Tamaño de fuente común para tablet y escritorio */
+    }
 
+    .header {
+        padding: 50px 0; /* Ajuste común del espaciado superior e inferior de la cabecera */
+    }
 
+    .menu {
+        padding: 30px; /* Ajuste común del espaciado del menú */
+    }
+
+    .header-content {
+        padding: 50px 0; /* Ajuste común del espaciado del contenido de la cabecera */
+        flex-direction: column; /* Cambio en la dirección del contenido */
+    }
+
+    .header-img {
+        display: none; /* Ocultar la imagen de la cabecera en tablet y escritorio */
+    }
+
+    .header-txt h1 {
+        font-size: 70px; /* Tamaño de fuente común para el título */
+    }
+
+    .header-txt a {
+        font-size: 50px; /* Tamaño de fuente común para el subtitulo */
+    }
+
+    .ofert {
+        padding: 30px; /* Ajuste común del espaciado para la sección "ofert" */
+        flex-direction: column; /* Cambio en la dirección del contenido */
+    }
+
+    .ofert-1 {
+        margin-bottom: 30px; /* Margen común para los elementos "ofert-1" */
+    }
+
+    .products {
+        padding: 30px; /* Ajuste común del espaciado para la sección "products" */
+    }
+
+    .products h2 {
+        margin-bottom: 30px; /* Margen común para el título "products" */
+    }
+
+    .product-content {
+        grid-template-columns: repeat(1, 1fr); /* Cambio en la disposición de las columnas */
+        gap: 30px; /* Espacio entre elementos */
+    }
+
+    .product img {
+        height: 280px; /* Altura común para las imágenes de productos */
+        width: 200px; /* Ancho común para las imágenes de productos */
+    }
+
+    .icons {
+        padding: 30px; /* Ajuste común del espaciado para la sección "icons" */
+        flex-direction: column; /* Cambio en la dirección del contenido */
+    }
+
+    .icon {
+        margin-bottom: 30px; /* Margen común para los elementos "icon" */
+    }
+
+    .blog {
+        padding: 30px; /* Ajuste común del espaciado para la sección "blog" */
+        flex-direction: column; /* Cambio en la dirección del contenido */
+    }
+
+    .blog-1 {
+        margin-bottom: 30px; /* Margen común para los elementos "blog-1" */
+    }
+
+    .footer {
+        padding: 30px; /* Ajuste común del espaciado del footer */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Cambio en la dirección del contenido */
+        text-align: center; /* Alineación de texto centrada */
+    }
+}
+
+/* Estilos para tamaños de pantalla de televisores (más de 2560px, un valor aproximado) */
+@media (min-width: 2561px) {
+    /* Estilos para televisores */
+
+    body {
+        font-size: 24px; /* Tamaño de fuente aún más grande */
+    }
+
+    .header {
+        padding: 150px 0; /* Ajuste del espaciado superior e inferior de la cabecera */
+    }
+
+    .menu {
+        padding: 70px; /* Ajuste del espaciado del menú */
+    }
+
+    /* Continúa aquí con los estilos específicos para televisores */
+
+    .footer {
+        padding: 50px; /* Ajuste del espaciado del footer */
+    }
+
+    .footer-content {
+        /* Puedes agregar estilos específicos para el footer en televisores si es necesario */
+    }
+}
